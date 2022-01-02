@@ -1,11 +1,11 @@
 syntax = "proto3";
-package mavericks.dna.dna;
+package sherifmavericks.dna.dna;
 
 import "gogoproto/gogo.proto";
 import "dna/params.proto";
 // this line is used by starport scaffolding # genesis/proto/import
 
-option go_package = "github.com/mavericks/dna/x/dna/types";
+option go_package = "github.com/sherifmavericks/dna/x/dna/types";
 
 // GenesisState defines the dna module's genesis state.
 message GenesisState {

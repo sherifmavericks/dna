@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	keepertest "github.com/mavericks/dna/testutil/keeper"
-	"github.com/mavericks/dna/x/dna/keeper"
-	"github.com/mavericks/dna/x/dna/types"
+    "github.com/sherifmavericks/dna/x/dna/types"
+    "github.com/sherifmavericks/dna/x/dna/keeper"
+    keepertest "github.com/sherifmavericks/dna/testutil/keeper"
 )
 
 func setupMsgServer(t testing.TB) (types.MsgServer, context.Context) {

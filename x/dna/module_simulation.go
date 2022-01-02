@@ -9,9 +9,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/mavericks/dna/testutil/sample"
-	dnasimulation "github.com/mavericks/dna/x/dna/simulation"
-	"github.com/mavericks/dna/x/dna/types"
+	"github.com/sherifmavericks/dna/testutil/sample"
+	dnasimulation "github.com/sherifmavericks/dna/x/dna/simulation"
+	"github.com/sherifmavericks/dna/x/dna/types"
 )
 
 // avoid unused import issue

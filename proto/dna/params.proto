@@ -1,9 +1,9 @@
 syntax = "proto3";
-package mavericks.dna.dna;
+package sherifmavericks.dna.dna;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/mavericks/dna/x/dna/types";
+option go_package = "github.com/sherifmavericks/dna/x/dna/types";
 
 // Params defines the parameters for the module.
 message Params {

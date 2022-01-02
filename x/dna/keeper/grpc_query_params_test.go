@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	testkeeper "github.com/mavericks/dna/testutil/keeper"
-	"github.com/mavericks/dna/x/dna/types"
 	"github.com/stretchr/testify/require"
+	testkeeper 	"github.com/sherifmavericks/dna/testutil/keeper"
+	"github.com/sherifmavericks/dna/x/dna/types"
 )
 
 func TestParamsQuery(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/mavericks/dna
+module github.com/sherifmavericks/dna
 
 go 1.16
 

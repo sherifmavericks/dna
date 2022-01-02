@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/mavericks/dna/x/dna/types"
+	"github.com/sherifmavericks/dna/x/dna/types"
 )
 
 var (
@@ -32,5 +32,5 @@ func GetTxCmd() *cobra.Command {
 
 	// this line is used by starport scaffolding # 1
 
-	return cmd
+	return cmd 
 }

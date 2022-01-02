@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/sherifmavericks/dna/x/dna/keeper"
+	"github.com/sherifmavericks/dna/x/dna/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/mavericks/dna/x/dna/keeper"
-	"github.com/mavericks/dna/x/dna/types"
 )
 
 // NewHandler ...
